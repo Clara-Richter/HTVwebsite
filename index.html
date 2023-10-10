@@ -13,11 +13,147 @@
 
     <body>
 
-        <h1>My awesome space</h1>
+        <h1>How They Voted</h1>
+        <br>
+        <br>
+        <form action="/senator-vote.html">
+        <label for="congress">Choose a year and congress:</label>
+        <select name="congress" id="congress">
+        <option value="select">select</option>
+        <option value="votes_118_1">2023 (118th, 1st)</option>
+        <option value="votes_117_2">2022 (117th, 2nd)</option>
+        <option value="votes_117_1">2021 (117th, 1st)</option>
+        <option value="votes_116_2">2020 (116th, 2nd)</option>
+        <option value="votes_116_1">2019 (116th, 1st)</option>
+        <option value="votes_115_2">2018 (115th, 2nd)</option>
+        <option value="votes_115_1">2017 (115th, 1st)</option>
+        <option value="votes_114_2">2016 (114th, 2nd)</option>
+        <option value="votes_114_1">2015 (114th, 1st)</option>
+        <option value="votes_113_2">2014 (113th, 2nd)</option>
+        <option value="votes_113_1">2013 (113th, 1st)</option>
+        <option value="votes_112_2">2012 (112th, 2nd)</option>
+        <option value="votes_112_1">2011 (112th, 1st)</option>
+        <option value="votes_111_2">2010 (111th, 2nd)</option>
+        <option value="votes_111_1">2009 (111th, 1st)</option>
         
+        
+        </select>  
+        <br>
+        <br>
+        <label for="Senator">Choose a Senator:</label>
+        <select name="Senator" id="Senator">
+        <option value="select">select</option>
+        <option value="Baldwin">Tammy Baldwin (D-WI)</option>
+        <option value="Barrasso">John Barrasso (R-WY)</option>
+        <option value="Bennet">Michael Bennet (D-CO)</option>
+        <option value="Blackburn">Marsha Blackburn (R-TN)</option>
+        <option value="Blumenthal">Richard Blumenthal (D-CT)</option>
+        <option value="Booker">Cory Booker (D-NJ)</option>
+        <option value="Boozman">John Boozman (R-AR)</option>
+        <option value="Braun">Mike Braun (R-IN)</option>
+        <option value="Britt">Katie Britt (R-AL)</option>
+        <option value="Brown">Sherrod Brown (D-OH)</option>
+        <option value="Budd">Ted Budd (R-NC)</option>
+        <option value="Cantwell">Maria Cantwell (D-WA)</option>
+        <option value="Capito">Shelley Capito (R-WV)</option>
+        <option value="Cardin">Ben Cardin (D-MD)</option>
+        <option value="Carper">Thomas Carper (D-DE)</option>
+        <option value="Casey">Bob Casey (D-PA)</option>
+        <option value="Cassidy">Bill Cassidy (R-LA)</option>
+        <option value="Collins">Susan Collins (R-ME)</option>
+        <option value="Coons">Christopher Coons (D-DE)</option>
+        <option value="Cornyn">John Cornyn (R-TX)</option>
+        <option value="Masto">Catherine Cortez Masto (D-NV)</option>
+        <option value="Cotton">Tom Cotton (R-AR)</option>
+        <option value="Cramer">Kevin Cramer (R-ND)</option>
+        <option value="Crapo">Mike Crapo (R-ID)</option>
+        <option value="Cruz">Ted Cruz (R-TX)</option>
+        <option value="Daines">Steve Daines (R-MT)</option>
+        <option value="Duckworth">Tammy Duckworth (D-IL)</option>
+        <option value="Durbin">Richard Durbin (D-IL)</option>
+        <option value="Ernst">Joni Ernst (R-IA)</option>
+        <option value="Feinstein">Dianne Feinstein (D-CA)</option>
+        <option value="Fetterman">John Fetterman (D-PA)</option>
+        <option value="Fischer">Deb Fischer (R-NE)</option>
+        <option value="Gillibrand">Kirsten Gillibrand (D-NY)</option>
+        <option value="Graham">Lindsey Graham (R-SC)</option>
+        <option value="Grassley">Chuck Grassley (R-IA)</option>
+        <option value="Hagerty">Bill Hagerty (R-TN)</option>
+        <option value="Hassan">Maggie Hassan (D-NH)</option>
+        <option value="Hawley">Josh Hawley (R-MO)</option>
+        <option value="Heinrich">Martin Heinrich (D-NM)</option>
+        <option value="Hickenlooper">John Hickenlooper (D-CO)</option>
+        <option value="Hirono">Mazie Hirono (D-HI)</option>
+        <option value="Hoeven">John Hoeven (R-ND)</option>
+        <option value="Hyde-Smith">Cindy Hyde-Smith (R-MS)</option>
+        <option value="Johnson">Ron Johnson (R-WI)</option>
+        <option value="Kaine">Timothy Kaine (D-VA)</option>
+        <option value="Kelly">Mark Kelly (D-AZ)</option>
+        <option value="Kennedy">John Kennedy (R-LA)</option>
+        <option value="King">Angus King (I-ME)</option>
+        <option value="Klobuchar">Amy Klobuchar (D-MN)</option>
+        <option value="Lankford">James Lankford (R-OK)</option>
+        <option value="Lee">Mike Lee (R-UT)</option>
+        <option value="Lujan">Ben Lujan (D-NM)</option>
+        <option value="Lummis">Cynthia Lummis (R-WY)</option>
+        <option value="Manchin">Joseph Manchin (D-WV)</option>
+        <option value="Markey">Edward Markey (D-MA)</option>
+        <option value="Marshall">Roger Marshall (R-KS)</option>
+        <option value="McConnell">Mitch McConnell (R-KY)</option>
+        <option value="Menendez">Robert Menendez (D-NJ)</option>
+        <option value="Merkley">Jeff Merkley (D-OR)</option>
+        <option value="Moran">Jerry Moran (R-KS)</option>
+        <option value="Mullin">Markwayne Mullin (R-OK)</option>
+        <option value="Murkowski">Lisa Murkowski (R-AK)</option>
+        <option value="Murphy">Christopher Murphy (D-CT)</option>
+        <option value="Murray">Patty Murray (D-WA)</option>
+        <option value="Ossoff">Jon Ossoff (D-GA)</option>
+        <option value="Padilla">Alex Padilla (D-CA)</option>
+        <option value="Paul">Rand Paul (R-KY)</option>
+        <option value="Peters">Gary Peters (D-MI)</option>
+        <option value="Reed">John Reed (D-RI)</option>
+        <option value="Ricketts">Pete Ricketts (R-NE)</option>
+        <option value="Risch">James Risch (R-ID)</option>
+        <option value="Romney">Mitt Romney (R-UT)</option>
+        <option value="Rosen">Jacklyn Rosen (D-NV)</option>
+        <option value="Rounds">Mike Rounds (R-SD)</option>
+        <option value="Rubio">Marco Rubio (R-FL)</option>
+        <option value="Sanders">Bernard Sanders (I-VT)</option>
+        <option value="Schatz">Brian Schatz (D-HI)</option>
+        <option value="Schmitt">Eric Schmitt (R-MO)</option>
+        <option value="Schumer">Charles Schumer (D-NY)</option>
+        <option value="RScott">Rick Scott (R-FL)</option>
+        <option value="TScott">Tim Scott (R-SC)</option>
+        <option value="Shaheen">Jeanne Shaheen (D-NH)</option>
+        <option value="Sinema">Kyrsten Sinema (I-AZ)</option>
+        <option value="Smith">Tina Smith (D-MN)</option>
+        <option value="Stabenow">Debbie Stabenow (D-MI)</option>
+        <option value="Sullivan">Dan Sullivan (R-AK)</option>
+        <option value="Tester">Jon Tester (D-MT)</option>
+        <option value="Thune">John Thune (R-SD)</option>
+        <option value="Tillis">Thomas Tillis (R-NC)</option>
+        <option value="Tuberville">Tommy Tuberville (R-AL)</option>
+        <option value="Hollen">Chris Van Hollen (D-MD)</option>
+        <option value="Vance">J. Vance (R-OH)</option>
+        <option value="Warner">Mark Warner (D-VA)</option>
+        <option value="Warnock">Raphael Warnock (D-GA)</option>
+        <option value="Warren">Elizabeth Warren (D-MA)</option>
+        <option value="Welch">Peter Welch (D-VT)</option>
+        <option value="Whitehouse">Sheldon Whitehouse (D-RI)</option>
+        <option value="Wicker">Roger Wicker (R-MS)</option>
+        <option value="Wyden">Ron Wyden (D-OR)</option>
+        <option value="Young">Todd Young (R-IN)</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+        </form>
+
+
+
         <!-- Load external JavaScript -->
         <script src="scripts.js"></script>
         
+
     </body>
 
 </html>
